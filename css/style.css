@@ -136,7 +136,7 @@ h1 {
 
 @media (min-width: 1440px) {
     body {
-        background-image: url(img/bg-desktop.svg);
+        background-image: url(../img/bg-desktop.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left top;
@@ -155,7 +155,6 @@ h1 {
 
     .huddle-text h1 {
         font-size: 42px;
-        /* margin-right: 35px; */
     }
 
     .huddle-text p {
@@ -165,9 +164,6 @@ h1 {
 
     .container {
         margin: 75px auto;
-        /* display: flex;
-        flex-wrap: wrap; */
-        /* padding: 0 4%; */
     }
 
     .logo {
@@ -185,9 +181,7 @@ h1 {
     .huddle-text {
         text-align: left;
         width: 40%;
-
         padding: 20px;
-        /* margin: 65px 0 30px 0;         */
         margin: 15px 0 142px 15px;
     }
 
@@ -201,8 +195,6 @@ h1 {
         position: absolute;
         top: 520px;
         right: 200px;
-        /* display: flex;
-        justify-content: flex-end;
-        margin: 0 60px 0 60px; */
+        
     }
 }
