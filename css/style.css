@@ -22,8 +22,7 @@ body {
     background-color: hsl(257, 40%, 49%);
     line-height: 1.5;
     font-size: 1rem;
-    height: 100vh; 
-    overflow: hidden;   
+    height: 100vh;  
 }
 
 h1 {
@@ -134,7 +133,7 @@ h1 {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 700px) and (min-width: 1440px) {
+@media only screen and (min-width: 700px) and (max-width: 1440px) {
     body {
         background-image: url(../img/bg-desktop.svg);
         background-repeat: no-repeat;
